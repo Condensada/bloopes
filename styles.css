@@ -116,4 +116,11 @@ nav a {
 	left: 0;
 	margin-left: -3px;
 	right: 95%;
-  }
+}
+
+h2:hover{
+
+	transition: 0.3s ease-in-out;
+    color:rgb(253, 168, 168);
+
+}
