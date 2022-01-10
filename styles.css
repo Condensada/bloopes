@@ -1,8 +1,6 @@
 * {
 	margin: 0;
 	padding: 0;
-	border-style: none solid none none;
-	border-color: white;
 }
 body {
 	text-align: center;
@@ -100,3 +98,22 @@ nav a {
 	line-height: 30px;
     color: #fff;
 }
+
+.vl {
+	border-left: 2px solid white;
+	height: 1000px;
+	width: 1px;
+	position: absolute;
+	left: 95%;
+	margin-left: -3px;
+	top: 0;
+  }
+.desg{
+	border-right: 2px solid white;
+	height: 1000px;
+	width: 1px;
+	position: absolute;
+	left: 0;
+	margin-left: -3px;
+	right: 95%;
+  }
