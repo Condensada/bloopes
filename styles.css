@@ -17,6 +17,9 @@ header {
 	width: 100%;
 	z-index: 10;
 	position: fixed;
+	z-index: 99999999999999;
+	
+	
 }
 .logo {
 	width: 30%;
@@ -45,6 +48,7 @@ nav a:hover{
 nav {
 	float: right;
 	line-height: 100px;
+	border: 2px white;
 }
 nav a {
 	text-decoration: none;
@@ -58,7 +62,8 @@ nav a {
 	width: 100%;
 	height: 500px;
 	position: fixed;
-	top: 100px;
+	top: 50px;
+	z-index: 2000;
 	
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -70,19 +75,23 @@ nav a {
 	font-family: poppins;
 	text-transform: uppercase;
 	color: #fff;
+	
 }
 .banner-area h3 {
 	font-size: 30px;
 	font-family: poppins;
 	text-transform: uppercase;
 	color: #fff;
+	
+	
 }
 .content-area {
 	width: 100%;
 	position: relative;
 	top: 450px;
 	background-image: url(grain.png);
-	height: 1500px;
+	height: 200%;
+	z-index: 5000;
 }
 .content-area h2 {
 	font-family: poppins;
@@ -91,12 +100,14 @@ nav a {
 	font-size: 40px;
 	margin: 0;
     color: #fff;
+	z-index: 5000;
 }
 .content-area p {
 	padding: 2% 0px;
 	font-family: poppins;
 	line-height: 30px;
     color: #fff;
+	z-index: 5000;
 }
 
 .vl {
@@ -107,15 +118,17 @@ nav a {
 	left: 95%;
 	margin-left: -3px;
 	top: 0;
+	z-index: 5000;
   }
 .desg{
 	border-right: 2px solid white;
 	height: 1000px;
-	width: 1px;
-	position: absolute;
+	width: 70px;
+	position: fixed;
 	left: 0;
 	margin-left: -3px;
-	right: 95%;
+	right: 6;
+	
 }
 
 h2:hover{
@@ -123,4 +136,41 @@ h2:hover{
 	transition: 0.3s ease-in-out;
     color:rgb(253, 168, 168);
 
+}
+
+.a{
+	border-right: 2px solid white;
+	height: 1000px;
+	width: 74px;
+	position: fixed;
+	left: 0;
+	margin-left: -3px;
+	right: 65;
+	
+}
+p{
+
+    border-bottom:solid 2px white;
+	line-height: 100%;
+	
+
+}
+footer{
+    margin: 200px auto;
+    text-align: center;
+    padding-top: 300px;
+	color: white;
+	font-family:Poppins
+}
+.overlay{
+	transition: 0.3s ease-in-out;
+    color:rgb(253, 168, 168);
+	z-index: 99999999999999;
+}
+ul li a{
+	z-index: 99999999999999;
+}
+ul{
+	position: relative;
+	z-index: 99999999999999;
 }
